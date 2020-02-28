@@ -29,9 +29,11 @@ Table of contents
 /*---------------------------------
   01. Common
 -----------------------------------*/
-.button-text-color{
+
+.button-text-color {
   color: black;
 }
+
 body {
   font-family: 'Work Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -211,12 +213,12 @@ body.dark-body {
 }
 
 .btn-theme {
-  color: #fff;
+  color: black;
 }
 
 .btn-theme:focus, .btn-theme:active, .btn-theme:hover {
-  color: #fff;
-  background: #111;
+  color: black;
+  background: #74C2D0;
   text-decoration: none;
 }
 
@@ -848,7 +850,7 @@ body.dark-body {
 }
 
 .portfolio-hover-01 .hover {
-  background: #95C8D8;
+  background: #ff9898;
   position: absolute;
   bottom: 0;
   visibility: hidden;
