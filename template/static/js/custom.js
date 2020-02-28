@@ -165,4 +165,12 @@ Copyright (c) 2018 - PxDraft
             "https://drive.google.com/file/d/1r4dqHHtTqznmHFCWmBZu151yvqR-Qp3k/view?usp=sharing"
           );
         });
+                $("#github").click(function() {
+                  window.open("https://github.com/Preston-Shipman");
+                });
+                        $("#linkedin").click(function() {
+                          window.open(
+                            "https://www.linkedin.com/in/prestonshipman/"
+                          );
+                        });
 })(jQuery);
