@@ -163,7 +163,7 @@ body.dark-body {
     top: 0;
     bottom: 0;
     width: 20px;
-    background: #fff;
+    background: #F4F0DB;
     right: 0px;
     z-index: 1;
     position: fixed;
@@ -757,7 +757,7 @@ body.dark-body {
 -----------------------------------------*/
 
 #portfolio {
-  background-color: #74C2D0;
+  background-color: #F4F0DB;
 }
 
 .portfolio-filter ul {
@@ -812,9 +812,9 @@ body.dark-body {
 
 .portfolio-col {
   padding: 10px;
-  background: #F4F0DB;
-  border: 1px solid #ddd;
-  border-bottom: 4px solid #ddd;
+  background: #74C2D0;
+  border: 1px solid #74C2D0;
+  border-bottom: 4px solid #74C2D0;
 }
 
 .portfolio-col .portfolio-img {
