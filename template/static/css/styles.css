@@ -153,23 +153,6 @@ body.dark-body {
   Scroll Auto
 -----------------------------------*/
 
-@media(min-width: 992px) {
-  .page-scroll {
-    overflow-y: scroll;
-    height: 100vh;
-  }
-  .page-scroll:after {
-    content: "";
-    top: 0;
-    bottom: 0;
-    width: 20px;
-    background: #F4F0DB;
-    right: 0px;
-    z-index: 1;
-    position: fixed;
-  }
-}
-
 .page-content {
   padding: 50px;
   max-width: 1200px;
@@ -510,7 +493,7 @@ body.dark-body {
 -----------------------------------*/
 
 #home-photo-color {
-  background-color: #74C2D0;
+  background-color: #F4F0DB;
 }
 
 .v-center-box {
@@ -760,41 +743,6 @@ body.dark-body {
   background-color: #F4F0DB;
 }
 
-.portfolio-filter ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.portfolio-filter li {
-  display: inline-block;
-  font-size: 13px;
-  color: #fff;
-  position: relative;
-  text-transform: uppercase;
-  padding: 4px 15px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  margin: 2px 1px;
-  cursor: pointer;
-}
-
-.portfolio-filter li:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  transform: skew(-20deg);
-  -webkit-transform: skew(-20deg);
-}
-
-.portfolio-filter li:not(.active):after {
-  background: #000;
-}
-
 .portfolio-content {
   margin: 0 -10px;
 }
@@ -903,42 +851,12 @@ body.dark-body {
   }
 }
 
-@media (max-width: 767px) {
-  .portfolio-filter li {
-    font-size: 11px;
-    margin: 10px 2px 0;
-    padding: 5px 9px;
-  }
-  .portfolio-filter li.active:after {
-    width: 100%;
-  }
-}
-
 @media (max-width: 640px) {
   .portfolio-cols-3 .portfolio-item {
     width: 100%;
   }
 }
 
-.owl-dots {
-  text-align: center;
-}
-
-.owl-dots .owl-dot {
-  width: 15px;
-  height: 15px;
-  display: inline-block;
-  vertical-align: top;
-  border-radius: 50%;
-  background: transparent;
-  margin: 0 3px;
-  border: 2px solid #484848;
-  box-shadow: 0px 1px 27px -3px rgba(0, 0, 0, 0.2);
-}
-
-.owl-dots .owl-dot.active {
-  background: #484848;
-}
 
 /*==============================
   Margins
