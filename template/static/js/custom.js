@@ -52,12 +52,12 @@ Copyright (c) 2018 - PxDraft
     });
     $("#resumeButton").click(function() {
       window.open(
-        "https://drive.google.com/file/d/1r4dqHHtTqznmHFCWmBZu151yvqR-Qp3k/view?usp=sharing"
+        "https://drive.google.com/file/d/1xlr1oP5L8sCoCjkKhTgJJtnD1tAjvLuz/view?usp=sharing"
       );
     });
         $("#resumeButton2").click(function() {
           window.open(
-            "https://drive.google.com/file/d/1r4dqHHtTqznmHFCWmBZu151yvqR-Qp3k/view?usp=sharing"
+            "https://drive.google.com/file/d/1xlr1oP5L8sCoCjkKhTgJJtnD1tAjvLuz/view?usp=sharing"
           );
         });
                 $("#github").click(function() {
